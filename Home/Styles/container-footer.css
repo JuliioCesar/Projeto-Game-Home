@@ -1,0 +1,26 @@
+.c-rodape{
+    background-color: #080808;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.logo-0-2{
+    height: 75px;
+}
+.h1-0{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.h3-0{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.c-redes{
+    display: flex;
+    gap: 15px;
+}
+.img-redes{
+    height: 32px;
+}

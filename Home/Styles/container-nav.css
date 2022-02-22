@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Fonte+Serif+4&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+.container-nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+  background-color: #080808; 
+}
+body{
+  background-color: #2D2B2B;
+}
+.c-conteudo{
+  width: 100%;
+  height: 90vh;
+}
+
+/*Imagens*/
+.logo-0{
+  height: 70px;
+}
+.img-1{
+  margin-top: -30px;
+  width: 60%;
+  object-fit: cover;
+}
+.text-0{
+  margin-top: 20px;
+  font-size: 18px;
+  color: #6ee2f5;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.c-conteudo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.nav{
+  display: flex;
+  gap: 20px; 
+  overflow: hidden;
+  transition: all .5s;
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 60px; 
+}
+.nav-item:hover, button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  background-color: rgba(87, 3, 3, 0);
+  
+}
+button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  position:absolute;
+  right: 10px;
+  top: 10px;
+  display: none;
+}
+button:focus~.nav{
+  height: 320px;
+}
+.nav-item:hover{
+  color: #6ee2f5;
+}
+.nav-item:active{
+  color: #6ee3f5e5;
+}
+/*BUTÕES DA Lojas*/
+.c-lojas{
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.c-steam{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0061AA;
+  width: 170px;
+  height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-epic{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #8A8A8A;
+  width: 170px;
+  height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-ubisoft{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #4E54FF;
+  width: 170px;
+  height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*AQUI E A PARTE DA RESPONSIVIDADE*/
+
