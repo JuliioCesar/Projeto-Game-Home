@@ -17,7 +17,7 @@
 <li><img align="center" alt="php" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"></li>
 </ol>
 
-## Pagine Home
+## Pagina Home
 <img alt="Home" src="https://github.com/JuliioCesar/Projeto-Game-Home/blob/468db808129df56f6a1dc3d9949a96615c24736e/img-readme/home-final.png">
 
 ## Login
