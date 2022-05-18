@@ -4,7 +4,7 @@
 ### Objetivo do Projeto.
 <ol>
 <li>Ajudar aos usuarios a encontrar jogos baratos</li>
-<li>Indicar varios diversos games</li>
+<li>Indicar diversos games</li>
 <li>Praticar e estudar a parte de desenvolvimento web</li>
 </ol>
 
