@@ -12,10 +12,10 @@
   align-items: center;
   justify-content: space-around;
   
-  background-color: #080808; 
+  background-color: #000000; 
 }
 body{
-  background-color: #2D2B2B;
+  background-color: #000000;
 }
 .c-conteudo{
   width: 100%;
